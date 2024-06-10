@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    margin: 0;  padding: 0;
+    width: 80%;
+    justify-content: center;
+}
+
+img {
+    width: 400px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+caption{
+    margin-bottom: 15px;
+}
+
+table{
+    width: 80%;
+    text-align: center;
+    border-collapse: collapse;
+    border: 5px double saddlebrown;
+}
+
+thead{
+    height: 70px;
+    background-color: rgba(209, 160, 110, 0.7);
+    border-collapse: collapse;
+    /* border: 2px solid saddlebrown; */
+    border-bottom: 5px double saddlebrown;
+} 
+
+tbody{
+    border-collapse: collapse;
+    border: 2px solid saddlebrown;
+}
+td{
+    border-collapse: collapse;
+    border: 2px solid saddlebrown;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+
+tfoot{
+    border-collapse: collapse;
+    border: 2px solid saddlebrown;
+    border-top: 5px double saddlebrown;
+}
